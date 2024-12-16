@@ -18,4 +18,4 @@ def are_anagrams(s1, s2):
             return False
     return True
 
-are_anagrams("nati", "tina")
+print(are_anagrams("nati", "tina"))
