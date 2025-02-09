@@ -1,5 +1,5 @@
 var isPalindrome = function (s) {
-  s.replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, "");
+  s = s.toLowerCase().replace(/[^a-z0-9]/gi, "");
   if (s === s.split("").reverse().join("")) {
     return true;
   } else return false;
@@ -7,4 +7,5 @@ var isPalindrome = function (s) {
 
 let luca = "sanas";
 let string2 = "tetatta";
-console.log(isPalindrome(luca));
+let string3 = "A man, a plan, a canal: Panama";
+console.log(isPalindrome(string3));
