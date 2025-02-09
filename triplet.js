@@ -1,6 +1,7 @@
 // Write a function returning true if there is a triplet (a, b, c) that satisfies a2 + b2 = c2 given an array of numbers.
 
 nums = [3, 4, 5];
+nums2 = [5, 10, 45];
 
 var triplet = function (nums) {
   for (let i = 0; i < 3; i++) {
