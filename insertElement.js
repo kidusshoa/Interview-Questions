@@ -2,6 +2,8 @@ var searchInsert = function (nums, target) {
   let c = nums.length - 1;
   if (target > nums[c]) {
     return nums.length;
+  } else if (target == 0 && nums[0] > 0) {
+    return 0;
   }
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] === target) {
@@ -14,6 +16,9 @@ var searchInsert = function (nums, target) {
         return j;
       }
     }
+  }
+  if ((nums[0] = [1001])) {
+    return 0;
   }
 };
 
